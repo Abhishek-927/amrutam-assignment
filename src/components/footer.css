@@ -1,0 +1,27 @@
+.footer {
+  font-size: 1.125rem;
+  padding-block: 70px 109px;
+  background-color: #3a643b30;
+}
+
+.footer-center {
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+}
+
+.li-heading {
+  color: #3a643b;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.f-links {
+  list-style: none;
+  padding: 0;
+}
+
+.f-links a {
+  text-decoration: none;
+  color: #474747;
+}

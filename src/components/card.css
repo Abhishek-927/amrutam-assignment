@@ -1,0 +1,78 @@
+.card {
+  width: 290px;
+  text-align: center;
+  background-color: #fff7e2;
+  border-radius: 18px;
+  margin: auto;
+}
+
+.c-img-box {
+  padding-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: bolder;
+  margin-block: 10px 5px;
+}
+
+.education {
+  color: #838383;
+}
+
+.experience {
+  margin-bottom: 10px;
+}
+
+.experience::before {
+  content: url("../assets/graduation.svg");
+  position: relative;
+  top: 7px;
+  left: -5px;
+}
+
+.special {
+  color: #3f643b;
+  background: #3a643b33;
+  padding: 6px 13px;
+  border-radius: 22px;
+}
+
+.special::before {
+  content: url("../assets/link.svg");
+  position: relative;
+  top: 7px;
+  left: -5px;
+}
+
+.bot-btn {
+  background-color: #3f643b;
+  padding: 13px 0;
+  border: none;
+  border-radius: 0 0 18px 18px;
+  margin-top: 25px;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+
+.slick-prev::before {
+  font-size: 3rem;
+  color: #bcbcbc;
+}
+
+.slick-next::before {
+  font-size: 3rem;
+  color: #bcbcbc;
+}
+
+.slick-dots li button::before {
+  font-size: 15px;
+  margin-block: 20px;
+}

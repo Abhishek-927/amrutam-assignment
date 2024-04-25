@@ -1,0 +1,96 @@
+.first-slider {
+  padding-block: 80px 90px;
+  text-align: center;
+}
+
+.heading-s {
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto 75px;
+}
+
+.title-s {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3a643b;
+  margin-bottom: 30px;
+  text-decoration: underline #cad0c4;
+}
+
+.desc-s {
+  font-size: 1.25rem;
+  color: #323232;
+}
+
+.container {
+  margin: auto;
+}
+
+.mid-round {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #3a643bae;
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.in-item {
+  background-color: #fff7e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 30px 20px;
+  border-radius: 18px;
+  border-top: 5px solid #3a643b;
+  margin-right: 10px;
+}
+
+.it-title {
+  font-size: 1.5rem;
+  color: #3a643b;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.it-desc {
+  font-size: 1.125rem;
+  color: #2e2e2e;
+}
+
+/* media only style  */
+
+@media only screen and (max-width: 1200px) {
+  .heading-s {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading-s {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-s {
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .heading-t {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .desc-t {
+    font-size: 1rem;
+  }
+}
